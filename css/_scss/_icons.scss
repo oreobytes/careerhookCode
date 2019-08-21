@@ -1,0 +1,52 @@
+// LARGE ICONS //
+
+.img-lg {
+ max-height: 150px;
+}
+
+.navimgheight {
+  height: 40px;
+}
+
+.back-arrow-ht {
+  height:20px;
+}
+
+.point {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid $white;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+
+.point-down {
+    width: 0;
+    height: 0;
+    border-top: 15px solid $salmon;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+
+.point-down-navy {
+    width: 0;
+    height: 0;
+    border-top: 15px solid $navy;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+
+.add-icon {
+  height: 20px;
+  position: relative;
+  top: 1rem;
+  right:1rem;
+}
+
+.btn-sm-label {
+  height: .75rem;
+  padding-bottom: 0.15rem;
+}

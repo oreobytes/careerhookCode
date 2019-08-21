@@ -1,0 +1,77 @@
+// BUTTONS //
+
+.btn-typography {
+  @include typography($btnWeight,$btnSize);
+}
+
+.btn {
+ background-color: $salmon;
+ color: $white;
+ @extend .btn-typography;
+}
+
+.closebtn {
+  height:20px;
+  float:right;
+}
+
+.skipbtn {
+  background-color: transparent;
+  border: none;
+  color: $white;
+}
+
+.btn-login {
+  background-color: $lightnavy;
+  color: $navy;
+  @extend .btn-typography;
+}
+
+.btn-login a:hover, .btn-login:hover{
+  background-color: $salmon;
+  color: $white;
+}
+
+.btn-save {
+  background-color: $gold;
+}
+
+.btn-saved {
+  background-color: $white;
+  color: $gold;
+  border: 1px solid $gold;
+}
+
+.btn-applied {
+  background-color: $white;
+  color: $salmon;
+  border: 1px solid $salmon;
+}
+
+.btn-saved:hover {
+  @extend .btn-saved;
+}
+
+.btn-dropdown {
+  background-color: $lightnavy;
+  color: $black;
+  @extend .heading5;
+}
+
+.btn-applynow, .btn-sendmessage {
+  color: $white !important;
+}
+
+a.btn-applynow:hover {
+  color: $salmon !important;
+}
+
+.btn-sm {
+  background-color: $salmon;
+  // background-image: $closebtn;
+  // background-size: contain;
+  // background-position: center right;
+  // background-repeat: no-repeat;
+  color: $white;
+  height: 2rem;
+}

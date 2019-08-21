@@ -1,0 +1,92 @@
+//////////////////////////////////
+// CARDS
+//////////////////////////////////
+
+$cardradius: .75rem;
+
+.scrolling-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    .card {
+      flex: 0 0 auto;
+    }
+}
+
+.card {
+  border-radius: $cardradius;
+}
+
+.applybtn {
+  overflow-x: hidden;
+  position: relative;
+}
+
+.main-card-img {
+  height: 130px;
+  position: relative;
+  top: 80px;
+}
+
+.apply-card-img {
+  height: 75px;
+  position: relative;
+  top: 0;
+}
+
+.main-card-img-border {
+  border-radius: .50rem;
+}
+
+.card-text-height {
+  height: 4rem;
+  overflow: hidden;
+}
+
+.card-img-top {
+  border-top-left-radius: .75rem;
+  border-top-right-radius: .75rem;
+}
+
+.card>.list-group:last-child .list-group-item:last-child {
+  border-bottom-left-radius: .75rem;
+  border-bottom-right-radius: .75rem;
+}
+
+.card-body {
+  border-bottom-left-radius: .75rem;
+  border-bottom-right-radius: .75rem;
+}
+
+.card-bg {
+  background-color: $grayblue;
+}
+
+.favbody {
+  background-color: $teal;
+}
+
+.card-sm {
+  width: 160px;
+  border-radius: .75rem;
+}
+
+.card .heading4 {
+  color: $white;
+}
+
+.heart {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  height: 25px;
+  width: auto;
+}
+
+.card-img-top {
+  height: 150px;
+}
+
+.dummy-card {
+  width:75px;
+}

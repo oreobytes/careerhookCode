@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Career Hook by Thomas Jefferson University</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"> <!-- may not need to use"-->
+    <link rel="stylesheet" href="libraries/jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+<body>
+    <!-- Our Code Starts Here -->
+
+<section id="applynow">
+
+<div class="row m-0">
+  <div class="col-12 bgcolorsalmon pt-3 text-middle">
+  <a onclick="goBack()">
+    <img src="images/left-arrow.svg" class="back-arrow-ht pl-3" alt="back arrow">
+    <span class="heading3 mb-0 back-text">BACK</span>
+  </a>
+  <div class="col-12 text-center bgcolorsalmon">
+    <h1 class="heading1 mt-4 mb-5">APPLYING TO...</h1>
+  </div>
+  <div class="row">
+    <div class="col-12 point-down-bg m-0">
+      <div class="point-down mx-auto">
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<div class="row m-0 no-gutters">
+  <img src="images/employers/adobe.png" class="mt-2 ml-3 shadow apply-card-img main-card-img-border nowrap" alt="">
+  <div class="col text-left px-0 pt-0 pb-3 ml-3 border-bottom">
+    <h2 class="heading2 my-1">Experience Designer</h2>
+    <h3 class="heading3 mb-2">Adobe</h3>
+    <span class="heading6 card-text-height">Seattle, WA</span>
+  </div>
+</div>
+
+<div class="row mx-0 my-3">
+  <div class="col-6">
+    <span class="heading4 mb-0 main-text">RESUME<span class="required"> *</span></span></div>
+    <div class="col-6 text-right ml-auto">
+    <img src="images/add.svg" class="d-inline-block" style="height:20px;" alt="add document sign">
+  </div>
+  <div class="dropdown ml-3 my-3">
+  <button class="btn btn-dropdown dropdown-toggle rounded-pill px-5" type="button" id="dropdownMenuButtonresume" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    gloriajulienresume.pdf
+  </button>
+  <div class="dropdown-menu mx-auto" aria-labelledby="dropdownMenuButtonresume">
+    <a class="dropdown-item" href="#">gloriajulienresume-design.pdf</a>
+    <a class="dropdown-item" href="#">gloriajulienresume-engineer.pdf</a>
+    <a class="dropdown-item" href="#">gloriajulienresume-uxdesign.pdf</a>
+  </div>
+</div>
+</div>
+
+<div class="row mx-0 my-3">
+  <div class="col-6">
+    <span class="heading4 mb-0 main-text">RESUME NAME<span class="required"> *</span></span>
+  </div>
+  <div class="col-12">
+    <input class="form-control form-control-customtext rounded-pill my-3" type="text" placeholder="Name of Resume">
+  </div>
+</div>
+
+<div class="row mx-0 my-3">
+  <div class="col-6">
+    <span class="heading4 mb-0 main-text">COVER LETTER</span></div>
+    <div class="col-6 text-right ml-auto">
+    <img src="images/add.svg" class="d-inline-block" style="height:20px;" alt="add document sign">
+  </div>
+  <div class="dropdown ml-3 my-3">
+  <button class="btn btn-dropdown dropdown-toggle rounded-pill px-5" type="button" id="dropdownMenuButtonletter" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    gloriajuliencoverletter.pdf
+  </button>
+  <div class="dropdown-menu mx-auto" aria-labelledby="dropdownMenuButtonletter">
+    <a class="dropdown-item" href="#">gloriajuliencoverletter-design.pdf</a>
+    <a class="dropdown-item" href="#">gloriajuliencoverletter-engineer.pdf</a>
+    <a class="dropdown-item" href="#">gloriajuliencoverletter-uxdesign.pdf</a>
+  </div>
+</div>
+</div>
+
+<div class="row mx-0 my-3">
+  <div class="col-6">
+    <span class="heading4 mb-0 main-text">COVER LETTER NAME</span></div>
+  <div class="col-12">
+    <input class="form-control form-control-customtext rounded-pill my-3" type="text" placeholder="Name of Cover Letter">
+  </div>
+</div>
+
+<div class="row mx-0 my-3">
+  <div class="col-6">
+    <span class="heading4 mb-0 main-text">WEBSITE LINK</span></div>
+  <div class="col-12">
+    <input class="form-control form-control-customtext rounded-pill my-3" type="text" placeholder="Enter your Website Address">
+  </div>
+</div>
+
+<div class="col-lg-6 col-sm-8 col-12 m-0 mx-auto mb-5 pb-3">
+  <a data-toggle="modal" data-target="#sentsuccessModal" class="btn btn-block shadow rounded border-0 btn-applynow">APPLY NOW</a>
+</div>
+
+</section>
+
+<!-- SUCCESS MODAL POPUP -->
+<div class="modal" id="sentsuccessModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" id="sentsuccessContent">
+      <div class="modal-header pt-0">
+        <button type="button" class="icon-closebtn close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body pt-0">
+        <div class="container-fluid">
+          <div class="row h-50 mb-5">
+              <img src="images/big-airplane.svg" class="img-lg img-fluid d-block m-auto" alt="">
+          </div>
+        </div>
+        <div class="row h-50 py-3">
+          <div class="col-12">
+            <p class="heading1 text-center m-0">APPLICATION SENT!</p>
+          </div>
+          <div class="col-12 my-3">
+            <p class="heading3 text-center m-0">Congratulations! You’re one step closer to your dream job!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Our Code Ends Here -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then custom JS in the "bucket" -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="libraries/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/bucket.js"></script>
+  </body>
+</html>

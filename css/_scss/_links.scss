@@ -1,0 +1,107 @@
+//////////////////////////////////
+// links
+//////////////////////////////////
+
+a.active, a {
+  color: $salmon;
+}
+
+a:hover {
+  text-decoration: none;
+  color: $black;
+}
+
+.btn:hover {
+  background-color: $white;
+  color: $salmon;
+}
+
+.textlink:hover {
+  color: $black;
+}
+
+.nav-link {
+  color:$white;
+}
+
+.btn-save:hover {
+  color: $gold;
+}
+
+.list-div a, .list-div a:hover {
+  color:inherit;
+}
+
+.back-arrow {
+  color: $white;
+  float: left;
+  position: relative;
+  height: 20px;
+  top: 1rem;
+  left: 1rem;
+}
+
+.back-link {
+  color: $white;
+  float: left;
+  position: relative;
+  height: 20px;
+  top: .8rem;
+  left: 1.5rem;
+}
+
+
+#applynow .back-text {
+  position: relative;
+  top:.20rem;
+  left: .50rem;
+  color: $white;
+}
+
+#applynow .heading1 {
+  color:$white;
+}
+
+#employer-page .employer-link {
+  color: $white;
+}
+
+a.nochange {
+  color: inherit;
+}
+
+a.nochange:hover {
+  color: $salmon;
+}
+
+.settings-link {
+  color: $navy;
+}
+
+
+.back-text-navy {
+  position: relative;
+  top:.20rem;
+  left: .50rem;
+  color: $navy;
+}
+
+.makeprimary {
+  color:$salmon;
+  font-weight:600 !important;
+}
+
+.editname {
+  color:$navy;
+  font-weight:600 !important;
+}
+
+.delete {
+  color:$error;
+  font-weight:600 !important;
+}
+
+.btn-sm:active {
+  background-color: $white;
+  color:$black;
+}

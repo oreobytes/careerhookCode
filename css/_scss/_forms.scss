@@ -1,0 +1,90 @@
+//////////////////////////////////
+// FORM FIELDS
+//////////////////////////////////
+
+select {
+  font-family: inherit;
+}
+
+.form-control-bgicon {
+  opacity: 0.6;
+  background-repeat: no-repeat;
+  background-position: 1.5rem center;
+  padding-left: 3.5rem;
+}
+
+.form-login {
+  color: $navy;
+  background-color: $white;
+}
+
+.form-control-customtext {
+  padding-left: 1rem;
+}
+
+#email {
+  @extend .form-control-bgicon;
+  @extend .form-login;
+  background-image: $user;
+}
+
+#password {
+  @extend .form-control-bgicon;
+  @extend .form-login;
+  background-image: $key;
+}
+
+//////////////////////////////////
+// onboarding accordian
+//////////////////////////////////
+
+.ui-accordion-header-icon {
+    display: none;
+}
+
+.ui-widget, .ui-widget-input {
+  font-family: inherit;
+}
+
+.list-group-item {
+  border: none;
+}
+
+
+// ONBOARDING CHECKLIST
+
+.custom-control-label {
+  padding-left: 1rem;
+}
+
+.custom-control-label:before{
+    background-color:$salmon;
+    height: 25px;
+    width: 25px;
+    border:none;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+    background-color:$salmon;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::after{
+    background-image:url('../images/checked-box.svg');
+    background-size: 100%;
+    height: 25px;
+    width: 25px;
+}
+.custom-control-input:active~.custom-control-label::before{
+    background-color:green;
+}
+
+/** focus shadow pinkish **/
+.custom-checkbox .custom-control-input:focus~.custom-control-label::before {
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(255, 0, 247, 0.25);
+}
+
+.custom-control.custom-checkbox{
+    padding-left: 0;
+  }
+
+#messagearea {
+  border-radius: .75rem !important;
+}

@@ -1,0 +1,75 @@
+// Color Variables
+
+// Main colors
+$navy: #084C61;
+$salmon: #DB504A;
+$gold: #E3B505;
+$grayblue: #4F6D7A;
+$teal: #56A3A6;
+$success: #299B57;
+$warning: #D56D27;
+$error: #8F0D18;
+$lightnavy: #C7D0D3;
+
+// Text
+$black: #231F20;
+$white: #FFFFFF;
+
+// Unique
+$boxblue: #2563CE;
+
+.bgcolorwhite {
+  background-color: $white !important;
+}
+
+.bgcolorsalmon {
+  background-color: $salmon !important;
+}
+
+.bgcolornavy {
+  background-color: $navy !important;
+}
+
+.bgcolorlightnavy {
+  background-color: $lightnavy !important;
+}
+
+.centercity {
+  background-color: $teal !important;
+  color: $white !important;
+  span,p {
+    color: $white !important;
+  }
+}
+
+.eastfalls {
+  background-color: $gold !important;
+  color: $white !important;
+  span,p {
+    color: $white !important;
+  }
+}
+
+.counselor-colors {
+  background-color: $navy !important;
+  .heading2 {
+  color: $white !important;
+  }
+}
+
+.colornavy, .settingstext {
+  color: $navy;
+}
+
+.pointbg {
+  background-color: $salmon;
+}
+
+.point-down-bg {
+  background-color: $white;
+}
+
+#sentsuccessContent {
+  background-color: $success;
+  color: $white;
+}

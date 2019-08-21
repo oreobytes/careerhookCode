@@ -1,0 +1,19 @@
+// Mixins Here
+// @mixin linear-gradient($angle,$color1,$color2){
+//   background-color: $color1;
+//   background-image: linear-gradient($angle,$color1,$color2);
+// }
+//
+// @mixin rlborder($size,$style,$bdcolor){
+//   border-top: 0px;
+//   border-bottom: 0px;
+//   border-right: $size;
+//   border-left: $size;
+//   border-color: $bdcolor;
+//   border-style: $style;
+// }
+
+@mixin typography($fontweight,$fontsize) {
+  font-weight: $fontweight;
+  font-size: $fontsize;
+}

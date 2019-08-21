@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Career Hook by Thomas Jefferson University</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"> <!-- may not need to use"-->
+    <link rel="stylesheet" href="libraries/jquery-ui-1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+<body>
+    <!-- Our Code Starts Here -->
+
+<section id="applynow">
+
+<div class="row m-0">
+  <div class="col-12 bgcolornavy pt-3 text-middle">
+  <a onclick="goBack()">
+    <img src="images/left-arrow.svg" class="back-arrow-ht pl-3" alt="back arrow">
+    <span class="heading3 mb-0 back-text">BACK</span>
+  </a>
+  <div class="col-12 text-center bgcolornavy">
+    <h1 class="heading1 mt-4 mb-5">CONTACTING...</h1>
+  </div>
+  <div class="row">
+    <div class="col-12 point-down-bg m-0">
+      <div class="point-down-navy mx-auto">
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<div class="row m-0 no-gutters">
+  <span class="mt-3 ml-3 heading1 text-center pt-3 shadow apply-card-img main-card-img-border nowrap centercity dummy-card">CC</span>
+  <div class="col text-left px-0 py-3 ml-3 border-bottom">
+    <h2 class="heading2 my-1">Center City Career Services</h2>
+    <h3 class="heading3 mb-2">General Inquiries</h3>
+    <span class="heading6 card-text-height">career.development@jefferson.edu</span>
+  </div>
+</div>
+
+<div class="row mx-0 my-3">
+  <div class="col-6">
+    <span class="heading4 mb-0 main-text">SELECT ANOTHER COUNSELOR<span class="required"> *</span></span>
+  </div>
+    <div class="col-6 text-right ml-auto">
+    <img src="images/add.svg" class="d-inline-block" style="height:20px;" alt="add document sign">
+  </div>
+  <div class="dropdown ml-3 my-3">
+  <button class="btn btn-dropdown dropdown-toggle rounded-pill px-5" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Chris Miciek, MA
+  </button>
+  <div class="dropdown-menu mx-auto" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Juli McDonald, M.Ed</a>
+    <a class="dropdown-item" href="#">Amelia S. Divalerio</a>
+    <a class="dropdown-item" href="#">East Falls Career Services</a>
+    <a class="dropdown-item" href="#">Tracy DePedro</a>
+    <a class="dropdown-item" href="#">Ainsley Maloney</a>
+    <a class="dropdown-item" href="#">Laura Bickert Ciarlello</a>
+    <a class="dropdown-item" href="#">Patrick Ryan</a>
+    <a class="dropdown-item" href="#">Michele Greenfield</a>
+  </div>
+</div>
+</div>
+
+<div class="row mx-0 my-3">
+  <div class="col-6">
+    <span class="heading4 mb-0 main-text">SUBJECT TITLE<span class="required"> *</span></span>
+  </div>
+  <div class="col-12">
+    <input class="form-control form-control-customtext rounded-pill my-3" type="text" placeholder="Subject Title">
+  </div>
+</div>
+
+<div class="row mx-0 my-3">
+  <div class="col-6">
+    <span class="heading4 mb-0 main-text">YOUR MESSAGE<span class="required"> *</span></span>
+  </div>
+</div>
+<div class="row mx-0 my-3">
+  <div class="col-12 form-group">
+  <textarea class="form-control" id="messagearea" rows="3"></textarea>
+</div>
+</div>
+
+<div class="col-lg-6 col-sm-8 col-12 m-0 mx-auto mb-5 pb-3">
+  <a data-toggle="modal" data-target="#sentsuccessModal" class="btn btn-block shadow rounded border-0 btn-sendmessage">SEND MESSAGE</a>
+</div>
+
+</section>
+
+<!-- SUCCESS MODAL POPUP -->
+<div class="modal" id="sentsuccessModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content" id="sentsuccessContent">
+      <div class="modal-header pt-0">
+        <button type="button" class="icon-closebtn close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body pt-0">
+        <div class="container-fluid">
+          <div class="row h-50 mb-5">
+              <img src="images/big-airplane.svg" class="img-lg img-fluid d-block m-auto" alt="">
+          </div>
+        </div>
+        <div class="row h-50 py-3">
+          <div class="col-12">
+            <p class="heading1 text-center m-0">MESSAGE SENT!</p>
+          </div>
+          <div class="col-12 my-3">
+            <p class="heading3 text-center m-0">Your request has been sent. Please wait 24 hours for a reply.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- Our Code Ends Here -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS, then custom JS in the "bucket" -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="libraries/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/bucket.js"></script>
+  </body>
+</html>

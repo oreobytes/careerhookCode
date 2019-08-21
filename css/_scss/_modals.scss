@@ -1,0 +1,77 @@
+.close {
+  font-size: 3.5em;
+  font-weight: 100;
+  opacity: 1;
+  color: $white;
+  text-shadow: none;
+}
+
+.brightkey {
+  color: $white;
+  @extend .img-lg;
+}
+
+#bgpassword, #loader {
+  background-color: $salmon;
+}
+
+#passwordtext {
+  background-color: $white;
+}
+
+.modal-header {
+  border: none;
+}
+
+
+#loader p {
+  color: white;
+}
+
+#btngoogledrive {
+  background-color: $lightnavy;
+  background-image: url("../images/google_drive_landscape.png");
+  background-size: contain;
+  @extend .btn-upload;
+}
+
+#btngoogledrive:hover {
+  background-color: $white;
+}
+
+#btnbox {
+  background-color: $boxblue;
+  background-image: url("../images/boxvector.svg");
+  background-size: 35% auto;
+  @extend .btn-upload;
+}
+
+.btn-upload {
+  height: 120px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+#pupload {
+  margin-top: 1rem;
+  color: $navy;
+}
+
+#successContent {
+  background-color: $success;
+  color:$white;
+}
+
+#skipuploadContent {
+  background-color: $salmon;
+  color: $white;
+}
+
+#warningContent {
+  background-color: $warning;
+  color: $white;
+}
+
+#warningContent a {
+  color: $white;
+}

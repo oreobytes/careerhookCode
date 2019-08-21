@@ -1,0 +1,147 @@
+@import '_colors.scss';
+@import '_fonts.scss';
+@import '_urls.scss';
+@import '_mixins.scss';
+@import '_spacing.scss';
+@import '_links.scss';
+@import '_forms.scss';
+@import '_buttons.scss';
+@import '_cards.scss';
+@import '_modals.scss';
+@import '_navbar.scss';
+@import '_icons.scss';
+
+$debug: false;
+
+* {
+  @if ($debug) {
+    border: 1px solid red;
+  }
+}
+
+// Your Google font here
+@import url('https://fonts.googleapis.com/css?family=Bitter:700|Open+Sans:300,400,600,800');
+
+// Your CSS/SCSS below this line
+
+//////////////////////////////////
+// global attributes
+//////////////////////////////////
+
+html, body {
+  font-family: $font1, $font2, $font3;
+}
+
+@for $i from 1 through 6{
+  .heading#{7-$i}{
+    font-weight: nth($weight,$i);
+    font-size: nth($size,$i);
+  }
+}
+
+.fullheight {
+  height: 100%;
+}
+
+//////////////////////////////////
+// navigation, search bar
+//////////////////////////////////
+
+.skipnav {
+  background-color: $navy;
+  color: $white;
+}
+
+.searchbar {
+  @extend .form-login;
+  @extend .form-control-bgicon;
+  background-image:$searchicon;
+  background-color: $lightnavy;
+}
+
+// .logo-center {
+//   position:relative;
+// }
+
+//////////////////////////////////
+// this section for index.html
+//////////////////////////////////
+
+#bg-image {
+  position: relative;
+}
+
+#bg-image img{
+  position: fixed;
+  top:0;
+  right:0;
+}
+
+p.logotext{
+  color: $navy;
+}
+
+p.footertext {
+  color: $white;
+}
+
+p.footertju {
+  color: $white;
+  font-family: $title1, $title2, $title3;
+  @include typography($titleWeight,$titleSize);
+}
+
+.footerbg {
+  background-color: $navy;
+}
+
+.rounded {
+  border-radius: 2rem!important;
+}
+
+small {
+  color: $navy;
+}
+
+.logo-position {
+  margin-top: 8em;
+}
+
+#loginbtn, #helplogin {
+  color: $navy;
+}
+
+#loginbtn:hover, #helplogin:hover {
+  color: $white;
+  text-decoration: none;
+}
+
+//////////////////////////////////
+// this section for modal-password, loader.html
+//////////////////////////////////
+
+
+.text-center > img {
+  max-width: 150px;
+  position: relative;
+}
+
+.backnext {
+  background-color: $white;
+  box-shadow: 0 -.125rem .25rem rgba(0,0,0,.075)!important;
+  .backnext > p {
+    color: $salmon;
+  }
+}
+
+.main-text {
+  color: $black;
+}
+
+.required {
+  color:$error;
+}
+
+#settings-login-shadow .shadow {
+  box-shadow: 0 -0.25rem 1rem rgba(0,0,0,.15)!important;
+}
